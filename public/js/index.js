@@ -1,3 +1,5 @@
+"use strict";
+
 WebMidi.enable(function (err) {
 
   if (err) {
