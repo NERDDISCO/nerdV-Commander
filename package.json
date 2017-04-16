@@ -1,0 +1,34 @@
+{
+  "name": "nerdv-commander",
+  "version": "0.0.1",
+  "description": "Control nerdV devices.",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NERDDISCO/nerdV-Commander.git"
+  },
+  "keywords": [
+    "nerdV",
+    "DMX512"
+  ],
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "body-parser": "~1.15.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.2.0",
+    "express": "~4.14.0",
+    "jade": "~1.11.0",
+    "morgan": "~1.7.0",
+    "serve-favicon": "~2.3.0",
+    "webmidi": "^2.0.0-rc.3"
+  },
+  "author": "Tim Pietrusky",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NERDDISCO/nerdV-Commander/issues"
+  },
+  "homepage": "https://github.com/NERDDISCO/nerdV-Commander#readme"
+}
